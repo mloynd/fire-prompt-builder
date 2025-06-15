@@ -18,7 +18,7 @@ export default function FirePromptBuilder() {
       return (
         <span
           key={index}
-          className={\`mr-1 cursor-pointer \${tagMatch ? tagMatch.color : "text-white"}\`}
+          className={`mr-1 cursor-pointer ${tagMatch ? tagMatch.color : "text-white"}`}
           onClick={() => tagMatch && setSelectedTag(tagMatch)}
         >
           {word}
