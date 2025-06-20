@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const initialText = "The dog was silent, but I think it remembered something."
 
 const taggedWords = [
-  { word: "dog", tag: "canine_health", color: "text-green-400" },
+  { word: "dog", tag: "canine_health", color: "text-yellow-400" },
   { word: "silent", tag: "harmony_signal:silence", color: "text-blue-400" },
   { word: "remembered", tag: "memory_trait:episodic", color: "text-purple-400" }
 ]
